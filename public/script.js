@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var testNumLength = function(number) {
+	const testNumLength = function(number) {
         if (number.length > 9) {
             totaldiv.text(number.substr(number.length-9,9));
             if (number.length > 15) {
@@ -8,11 +8,11 @@ $(document).ready(function(){
             }
         }
     };
-    var numOfDecs = 0;
-	var number = "";
-    var newnumber = "";
-    var operator = "";
-    var totaldiv = $("#total");
+    let numOfDecs = 0;
+    let number = "";
+    let newnumber = "";
+    let operator = "";
+    let totaldiv = $("#total");
     totaldiv.text("0");
     $("#numbers a").not("#clear,#clearall").click(function(){
 		number += $(this).text();
@@ -38,7 +38,7 @@ $(document).ready(function(){
 		}
     });
     $("#decimal").click(function(){
-        for (var i = 0; i < number.length; i++){
+        for (let i = 0; i < number.length; i++){
             if (number[i] === '.'){
                 numOfDecs++;
             }
