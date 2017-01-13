@@ -2,7 +2,7 @@ body, div, a {
     padding:0;
     margin:0;
     font-family:'Open Sans', Arial, Helvetica, sans-serif;
-    background: #fafafa;
+
 }
 
 #calculator {
@@ -14,10 +14,6 @@ body, div, a {
 	border: 3px black solid;
 	margin: 10px auto;
 	padding: 5px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-khtml-border-radius: 10px;
-	border-radius: 10px;
 }
 
 #calculator a {
@@ -31,37 +27,36 @@ body, div, a {
 #numbers {
   display: inline-flex;
   flex-wrap: wrap;
-  margin-top: -425px;
-  padding-right: 0px;
+  width: 300px;
+
   }
 
 
-  #operators {
-  width: 300px;
-  display: flex;
-  flex-wrap: wrap;
+#operators {
+display: inline-flex;
+justify-content: space-between;
 
 }
 
 #operators a {
   flex-direction: row;
-	width: 46px;
-	height: 45px;
+	width: 50px;
+	height: 50px;
 	font-size: 39px;
-	padding: 2px;
-	margin: 5px 6px;
-  justify-content: space-around;
+	padding: 10px;
+	margin: 2px;
   background-color: rgb(63,81,181);
 }
 
 #numbers a {
+
 	width: 50px;
 	height: 50px;
 	font-size: 32px;
 	padding: 10px;
-	margin: 5px;
-  justify-content: space-around;
+	margin: 2px;
   border: 1px solid black;
+  background-color: pink;
 }
 
 #total {
@@ -77,9 +72,8 @@ body, div, a {
 #side {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 	width: 49px;
-  align-self: flex-end;
+  margin-right: 6px;
 }
 
 #side a {
@@ -94,7 +88,6 @@ body, div, a {
 }
 
 a#equals {
-
 	padding-top: 50px;
 	height: 100px;
 }
