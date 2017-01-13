@@ -1,0 +1,107 @@
+body, div, a {
+    display: flex;
+    padding: 5%;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    background: #fafafa;
+}
+
+#calculator {
+	flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #B0E0E6;
+	width: 24%;
+	height: 65%;
+	border: 2px black solid;
+	padding: 1%
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-khtml-border-radius: 15px;
+	border-radius: 5px;
+
+}
+
+#calculator a {
+	  display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background: -moz-linear-gradient(top, #EDEDED, #DCDCDC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#EDEDED), to(#DCDCDC));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EDEDED', endColorstr='#DCDCDC');
+    box-shadow: 0px 5px 8px 1px #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+#numbers {
+  flex-wrap: wrap;
+	margin: 10%;
+}
+
+#operators {
+  display: flex;
+  width: 65%;
+	height: 20%;
+	font-size: 0px;
+	padding: 2px;
+	margin: 0;
+
+}
+
+#operators a {
+	flex-direction: row;
+	font-size: 39px;
+	padding: 2px;
+	margin: 5px 6px;
+}
+
+#numbers a {
+  display: flex;
+	width: 25%;
+	height: 10%;
+	font-size: 32px;
+	padding: 5%;
+	margin: 5px;
+}
+
+#total {
+    height: 70px;
+    width: 480px;
+    margin: 0px 0px 0px 3px;
+    background-color: white;
+    margin-bottom: 9px;
+    text-align: right;
+    font-size: 65px;
+    border: 0.5px black solid;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px 1px #000;
+    padding: 4px;
+}
+
+#total a {
+    padding-bottom: 5px;
+}
+
+#side {
+	width: 49px;
+	float: right;
+}
+
+#side a {
+	width: 40px;
+	height: 40px;
+	float: right;
+	font-size: 32px;
+	padding: 10px;
+	margin: 5px;
+}
+
+a#equals {
+	padding-top: 20px;
+	height: 25px;
+}

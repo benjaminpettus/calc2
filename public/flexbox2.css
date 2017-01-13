@@ -1,0 +1,102 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fafafa;
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+}
+
+#calculator {
+  background-color: #fdfdfd;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 24%;
+  padding: 1%;
+
+
+}
+
+#calculator a {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  color: black;
+  padding: 2%;
+
+}
+
+#numbers {
+  background-color: rgb(63,81,181);
+
+
+
+}
+
+#numbers a {
+  font-size: 32px;
+  background-color: rgb(63,81,181);
+  order: 1;
+  flex: 0 1 auto;
+  align-self: ;
+  min-width: 0;
+  min-height: auto;
+
+
+
+
+
+}
+
+#operators {
+  font-size: 32px;
+  width: 10%;
+  height: 25%;
+
+
+}
+
+#operators a {
+  font-size: 39px;
+  padding: 10%;
+
+
+
+
+
+
+}
+
+#total {
+  font-size: 60px;
+
+
+
+}
+
+#side {
+	width: 20%;
+	float: right;
+}
+
+#side a {
+	width: 10%
+	height: 10%;
+	float: right;
+	font-size: 32px;
+	padding: 2%;
+	margin: 2%;
+
+
+}
+
+a#equals {
+
+
+}
